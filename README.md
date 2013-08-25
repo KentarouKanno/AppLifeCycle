@@ -41,11 +41,11 @@ ViewControllerは青、ModalViewControllerは緑、NavigationControllerは紫色
   
 作ってみて気づいた点は上からの通知を表示した際に呼ばれているイベント  
 （WillResignActive:やDidEnterBackground等が呼ばれます。)  
-　、テザリングを開始、終了した際に呼ばれるイベント(viewWillLayoutSubviews:やviewDidLayoutSubviews等が呼ばれます。)  
-　アクションシートを出すだけでも呼ばれるメソッドも、、、知らないことがいっぱいありました。  
+、テザリングを開始、終了した際に呼ばれるイベント(viewWillLayoutSubviews:やviewDidLayoutSubviews等が呼ばれます。)  
+アクションシートを出すだけでも呼ばれるメソッドも、、、知らないことが沢山ありました。  
 　　
 
-皆様のお役に立てたら幸いです。
+間違え、表現が分かりにくい等ありましたらご指摘ください。
 
 
 #ScreenShot
