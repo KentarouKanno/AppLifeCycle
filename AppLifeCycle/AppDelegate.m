@@ -7,43 +7,237 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "RootNavigationController.h"
 
 @implementation AppDelegate
+@synthesize cycleArray;
+@synthesize selectCell;
+@synthesize TablePosition;
+@synthesize table;
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+#pragma mark- 初期化 init
+
+- (id)init
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    self = [super init];
+    if (self)
+    {
+        if (!cycleArray) {
+            cycleArray = [[NSMutableArray alloc]initWithCapacity:0];
+        }
+        selectCell = [NSIndexPath indexPathForRow:-1 inSection:0];
+        
+        [cycleArray addObject:[NSString stringWithFormat:@"%s\n%@",__func__,@"初期化するときに呼ばれる"]];
+     //   NSLog(@"Class & Method: %s", __func__);
+    }
+    return self;
+}
+
+
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"アプリの初期化が終わってストリーボードの読み込みが終わった後に呼び出される。アプリの状態復帰処理メドッドが発生する前に呼び出される。"]];
+  //  NSLog(@"Class & Method: %s", __func__);
     return YES;
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"アプリの初期化が終わってストリーボードの読み込みが終わった後に呼び出される。アプリの状態復帰後、画面表示の直前に呼び出される"]];
+  //  NSLog(@"Class & Method: %s", __func__);
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    ViewController *view = [[ViewController alloc]init];
+    RootNavigationController *navi = [[RootNavigationController alloc]initWithRootViewController:view];
+    
+    self.window.rootViewController = navi;
+    [self.window makeKeyAndVisible];
+    
+    return YES;
 }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application
+#pragma mark- 回転処理 rotate
+
+- (void)application:(UIApplication *)application didChangeStatusBarFrame:(CGRect)oldStatusBarFrame
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"ステータスバーのframeが変化した直後に呼ばれる。"]];
+  //  NSLog(@"Class & Method: %s", __func__);
 }
 
-- (void)applicationWillEnterForeground:(UIApplication *)application
+- (void)application:(UIApplication *)application didChangeStatusBarOrientation:(UIInterfaceOrientation)oldStatusBarOrientation
 {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"ステータスバーの方向が変化した直後に呼ばれる。"]];
+   // NSLog(@"Class & Method: %s", __func__);
+}
+
+- (void)application:(UIApplication *)application didDecodeRestorableStateWithCoder:(NSCoder *)coder
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"データの復帰処理を行うところ"]];
+  //  NSLog(@"Class & Method: %s", __func__);
+}
+
+- (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
+{
+    [cycleArray addObject:[NSString stringWithFormat:@"%s\n%@",__func__,@"アプリケーションのデフォルトのインターフェイスの向きを返します。"]];
+  //  NSLog(@"Class & Method: %s", __func__);
+    return UIInterfaceOrientationMaskAll;
+}
+
+#pragma mark- Local&push Notification処理
+
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s",__func__]];
+ //   NSLog(@"Class & Method: %s", __func__);
+}
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"通知メッセージから開いた時によばれます。"]];
+  //  NSLog(@"Class & Method: %s", __func__);
+    
+    if(notification) {
+        UIAlertView *alert = [[UIAlertView alloc]
+                              initWithTitle:@"LocalNotification"
+                              message:@"通知がきました。"
+                              delegate:nil
+                              cancelButtonTitle:@"OK"
+                              otherButtonTitles:nil];
+        [alert show];
+        
+        if (table) {
+            [table reloadData];
+        }
+    }
+}
+
+
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s",__func__]];
+ //   NSLog(@"Class & Method: %s", __func__);
+}
+
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s",__func__]];
+ //   NSLog(@"Class & Method: %s", __func__);
+}
+
+- (void)application:(UIApplication *)application willChangeStatusBarFrame:(CGRect)newStatusBarFrame
+{
+    if (!cycleArray) {
+        cycleArray = [[NSMutableArray alloc]initWithCapacity:0];
+    }
+    
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"ステータスバーのframeが変化する直前に呼ばれる。"]];
+ //   NSLog(@"Class & Method: %s", __func__);
+}
+
+- (void)application:(UIApplication *)application willChangeStatusBarOrientation:(UIInterfaceOrientation)newStatusBarOrientation duration:(NSTimeInterval)duration
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"ステータスバーの方向が変化する直前に呼ばれる。"]];
+  //  NSLog(@"Class & Method: %s", __func__);
+}
+
+- (void)application:(UIApplication *)application willEncodeRestorableStateWithCoder:(NSCoder *)coder
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"リストアデータの保存処理を行う"]];
+  //  NSLog(@"Class & Method: %s", __func__);
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"アプリケーションがフォアグラウンド状態になったら呼ばれる"]];
+  //  NSLog(@"Class & Method: %s", __func__);
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"アプリケーションがバックグラウンド状態になったら呼ばれる"]];
+  //  NSLog(@"Class & Method: %s", __func__);
+    
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    [ud setObject:cycleArray forKey:@"cycleArray"];
+    [ud synchronize];
+}
+
+- (void)applicationDidFinishLaunching:(UIApplication *)application
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"アプリケーションの初期化を行う"]];
+  //  NSLog(@"Class & Method: %s", __func__);
+}
+
+- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s",__func__]];
+  //  NSLog(@"Class & Method: %s", __func__);
+}
+
+- (void)applicationProtectedDataDidBecomeAvailable:(UIApplication *)application
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"データ保護が有効になる直前に呼ばれる"]];
+ //   NSLog(@"Class & Method: %s", __func__);
+}
+
+- (void)applicationProtectedDataWillBecomeUnavailable:(UIApplication *)application
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"データ保護が無効になる直前に呼ばれる"]];
+ //   NSLog(@"Class & Method: %s", __func__);
+}
+
+- (void)applicationSignificantTimeChange:(UIApplication *)application
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s",__func__]];
+  //  NSLog(@"Class & Method: %s", __func__);
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"アプリケーションがバックグラウンド状態から復帰する直前に呼ばれる"]];
+ //   NSLog(@"Class & Method: %s", __func__);
+}
+
+- (void)applicationWillResignActive:(UIApplication *)application
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"アプリケーションがフォアグラウンド状態からバックグラウンド状態に変わる直前に呼ばれる"]];
+  //  NSLog(@"Class & Method: %s", __func__);
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"バックグラウンド実行中にアプリが終了された場合に呼ばれます。"]];
+  //  NSLog(@"Class & Method: %s", __func__);
 }
+
+
+- (BOOL)application:(UIApplication *)application shouldSaveApplicationState:(NSCoder *)coder
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"リストアデータの保存処理を行うかを返す"]];
+  //  NSLog(@"Class & Method: %s", __func__);
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application shouldRestoreApplicationState:(NSCoder *)coder
+{
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@",__func__,@"リストア用データが保存されている時に呼び出される。"]];
+  //  NSLog(@"Class & Method: %s", __func__);
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    NSString *absoluteString = [url absoluteString];
+    
+    [cycleArray addObject: [NSString stringWithFormat:@"%s\n%@\n%@%@",__func__,@"URLスキームから立ち上げた時に呼ばれる",@"取得文字列:",absoluteString]];
+   // NSLog(@"Class & Method: %s", __func__);
+    return YES;
+}
+
 
 @end

@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,UIAlertViewDelegate>
+{
+    NSMutableArray *cycleArray;
+    NSIndexPath *selectCell;
+    CGPoint TablePosition;
+    UITableView *table;
+}
 
-@property (strong, nonatomic) UIWindow *window;
+@property (strong,nonatomic) UIWindow *window;
+@property (strong,readwrite) NSMutableArray *cycleArray;
+@property (strong,readwrite) NSIndexPath *selectCell;
+@property (assign,readwrite) CGPoint TablePosition;
+@property (strong,readwrite) UITableView *table;
 
 @end

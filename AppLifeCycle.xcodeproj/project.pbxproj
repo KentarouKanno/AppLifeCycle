@@ -16,6 +16,13 @@
 		371D6CAC17C06605007FBAFF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 371D6CAB17C06605007FBAFF /* Default.png */; };
 		371D6CAE17C06605007FBAFF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371D6CAD17C06605007FBAFF /* Default@2x.png */; };
 		371D6CB017C06605007FBAFF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371D6CAF17C06605007FBAFF /* Default-568h@2x.png */; };
+		371D6CB917C06638007FBAFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371D6CB717C06638007FBAFF /* ViewController.m */; };
+		371D6CBD17C08003007FBAFF /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371D6CBC17C08003007FBAFF /* ModalViewController.m */; };
+		371D6CC017C0810C007FBAFF /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371D6CBF17C0810C007FBAFF /* NavigationController.m */; };
+		371D6CC317C08E20007FBAFF /* CycleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 371D6CC217C08E20007FBAFF /* CycleTableView.m */; };
+		371D6D2317C56F58007FBAFF /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371D6D2217C56F57007FBAFF /* RootNavigationController.m */; };
+		37C4713117C70CCB00E32FF5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C4713017C70CCB00E32FF5 /* MessageUI.framework */; };
+		37C4713317C711B900E32FF5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C4713217C711B900E32FF5 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,18 @@
 		371D6CAB17C06605007FBAFF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		371D6CAD17C06605007FBAFF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		371D6CAF17C06605007FBAFF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		371D6CB617C06638007FBAFF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		371D6CB717C06638007FBAFF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		371D6CBB17C08003007FBAFF /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		371D6CBC17C08003007FBAFF /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		371D6CBE17C0810C007FBAFF /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		371D6CBF17C0810C007FBAFF /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		371D6CC117C08E1F007FBAFF /* CycleTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleTableView.h; sourceTree = "<group>"; };
+		371D6CC217C08E20007FBAFF /* CycleTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleTableView.m; sourceTree = "<group>"; };
+		371D6D2117C56F57007FBAFF /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		371D6D2217C56F57007FBAFF /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		37C4713017C70CCB00E32FF5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		37C4713217C711B900E32FF5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C4713317C711B900E32FF5 /* StoreKit.framework in Frameworks */,
+				37C4713117C70CCB00E32FF5 /* MessageUI.framework in Frameworks */,
 				371D6C9A17C06605007FBAFF /* UIKit.framework in Frameworks */,
 				371D6C9C17C06605007FBAFF /* Foundation.framework in Frameworks */,
 				371D6C9E17C06605007FBAFF /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +89,8 @@
 		371D6C9817C06605007FBAFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37C4713217C711B900E32FF5 /* StoreKit.framework */,
+				37C4713017C70CCB00E32FF5 /* MessageUI.framework */,
 				371D6C9917C06605007FBAFF /* UIKit.framework */,
 				371D6C9B17C06605007FBAFF /* Foundation.framework */,
 				371D6C9D17C06605007FBAFF /* CoreGraphics.framework */,
@@ -80,6 +103,11 @@
 			children = (
 				371D6CA817C06605007FBAFF /* AppDelegate.h */,
 				371D6CA917C06605007FBAFF /* AppDelegate.m */,
+				37C4712F17C6CAC300E32FF5 /* MainViewController */,
+				37C4712E17C6CAAC00E32FF5 /* modalViewController */,
+				37C4712D17C6CA9500E32FF5 /* NavigationController */,
+				37C4712C17C6CA7E00E32FF5 /* RootNavigationController */,
+				37C4712B17C6CA6700E32FF5 /* TableView */,
 				371D6CA017C06605007FBAFF /* Supporting Files */,
 			);
 			path = AppLifeCycle;
@@ -97,6 +125,51 @@
 				371D6CAF17C06605007FBAFF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37C4712B17C6CA6700E32FF5 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				371D6CC117C08E1F007FBAFF /* CycleTableView.h */,
+				371D6CC217C08E20007FBAFF /* CycleTableView.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		37C4712C17C6CA7E00E32FF5 /* RootNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				371D6D2117C56F57007FBAFF /* RootNavigationController.h */,
+				371D6D2217C56F57007FBAFF /* RootNavigationController.m */,
+			);
+			name = RootNavigationController;
+			sourceTree = "<group>";
+		};
+		37C4712D17C6CA9500E32FF5 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				371D6CBE17C0810C007FBAFF /* NavigationController.h */,
+				371D6CBF17C0810C007FBAFF /* NavigationController.m */,
+			);
+			name = NavigationController;
+			sourceTree = "<group>";
+		};
+		37C4712E17C6CAAC00E32FF5 /* modalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				371D6CBB17C08003007FBAFF /* ModalViewController.h */,
+				371D6CBC17C08003007FBAFF /* ModalViewController.m */,
+			);
+			name = modalViewController;
+			sourceTree = "<group>";
+		};
+		37C4712F17C6CAC300E32FF5 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				371D6CB617C06638007FBAFF /* ViewController.h */,
+				371D6CB717C06638007FBAFF /* ViewController.m */,
+			);
+			name = MainViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +239,11 @@
 			files = (
 				371D6CA617C06605007FBAFF /* main.m in Sources */,
 				371D6CAA17C06605007FBAFF /* AppDelegate.m in Sources */,
+				371D6CB917C06638007FBAFF /* ViewController.m in Sources */,
+				371D6CBD17C08003007FBAFF /* ModalViewController.m in Sources */,
+				371D6CC017C0810C007FBAFF /* NavigationController.m in Sources */,
+				371D6CC317C08E20007FBAFF /* CycleTableView.m in Sources */,
+				371D6D2317C56F58007FBAFF /* RootNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +358,7 @@
 				371D6CB517C06605007FBAFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
