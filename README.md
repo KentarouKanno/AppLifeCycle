@@ -22,17 +22,8 @@ ViewControllerは青、ModalViewControllerは緑、NavigationControllerは紫色
 -[AppDelegate application:DidEnterBackground:]  等   
    
 回転イベントも呼び出していますので、デバイスの回転でどの順番で回転イベントが呼ばれているのか分かります。
-
-
-回転処理で同じメソッドが何度も呼ばれる状態ですが、それがどこから呼ばれているのかわ全て把握出来ていません、、、  
-詳しい方教えてください。
-例えば回転時にViewControllerのviewWillLayoutSubviewsなど2度呼ばれます。  
-
-
-あちこちでいろいろなメソッドが呼び出されていますが、流れが分かりやすいと思います、そして適切なタイミング  
-で処理をかけるようになるのでは、、、  
-
-
+あちこちでいろいろなメソッドが呼び出されていますが、流れが分かりやすいと思います、そして適切なタイミング    
+で処理を書けるようになるのでは、、、  
 
 
 使い方は自分の調べたいメソッドの中でAppDelegateのcycleArrayに__func__をつっこんでいるだけ。  
@@ -42,7 +33,11 @@ ViewControllerは青、ModalViewControllerは緑、NavigationControllerは紫色
 作ってみて気づいた点は上からの通知を表示した際に呼ばれているイベント  
 （WillResignActive:やDidEnterBackground等が呼ばれます。)  
 、テザリングを開始、終了した際に呼ばれるイベント(viewWillLayoutSubviews:やviewDidLayoutSubviews等が呼ばれます。)  
-アクションシートを出すだけでも呼ばれるメソッドも、、、知らないことが沢山ありました。  
+アクションシートを出すだけでも呼ばれるメソッドも、、、知らないことが沢山ありました。
+
+回転処理で同じメソッドが何度も呼ばれる状態(ViewControllerのviewWillLayoutSubviewsなど2度呼ばれます)  
+ですが、それがどこから呼ばれているのか把握出来ていません、、、  
+詳しい方教えてくださいm(_ _)m
 　　
 
 間違え、表現が分かりにくい等ありましたらご指摘ください。
