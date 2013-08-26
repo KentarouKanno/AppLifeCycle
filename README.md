@@ -1,8 +1,9 @@
 AppLifeCycle
 ============
 
-アプリケーションのlifecycleのサンプルを作ってみました。  
-実際に動くサンプルが分かりやすいと思いますので動かしてお試しください。
+初心者の自分向けにアプリケーションのlifecycleのサンプルを作ってみました。  
+あくまでも自分用ですが、参考になる人がいたら作ったかいがあります、、、  
+
 
 ・clearボタンでテーブル情報のクリア    
 ・reloadボタンでテーブルのリロード（Viewが表示されたタイミングなどで自動でリロードはしていますので、  
@@ -21,7 +22,7 @@ ViewControllerは青、ModalViewControllerは緑、NavigationControllerは紫色
 -[ViewController viewWillDisappear:]   
 -[AppDelegate application:DidEnterBackground:]  等   
    
-回転イベントも呼び出していますので、デバイスの回転でどの順番で回転イベントが呼ばれているのか分かります。
+回転イベントも呼び出していますので、デバイスの回転でどの順番でイベントが呼ばれているのか分かります。
 流れが分かると適切なタイミングで処理を書けるようになるのでは、、、  
 
 
@@ -45,7 +46,8 @@ ViewControllerは青、ModalViewControllerは緑、NavigationControllerは紫色
 #Movie -youtube-  
 
 
-[AppLifeCycle youtube](http://youtu.be/qB8nCJn7ihw "AppLifeCycle youtube")
+[AppLifeCycle youtube](http://youtu.be/qB8nCJn7ihw "AppLifeCycle youtube")  
+![applifecycleyoutube](https://f.cloud.github.com/assets/871484/1024489/bb5664f2-0e26-11e3-83bf-6bc6d5403f5c.png)
 
 
 #ScreenShot
