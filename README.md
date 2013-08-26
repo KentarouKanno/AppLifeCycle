@@ -39,7 +39,13 @@ ViewControllerは青、ModalViewControllerは緑、NavigationControllerは紫色
 詳しい方教えてくださいm(_ _)m
 　　
 
-間違え、表現が分かりにくい等ありましたらご指摘ください。
+間違え、表現が分かりにくい等ありましたらご指摘ください。  
+
+
+#Movie -youtube-  
+
+
+[AppLifeCycle youtube](http://youtu.be/qB8nCJn7ihw "AppLifeCycle youtube")
 
 
 #ScreenShot
