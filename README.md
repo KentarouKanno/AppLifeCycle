@@ -24,11 +24,12 @@ ViewControllerは青、ModalViewControllerは緑、NavigationControllerは紫色
    
 回転イベントも呼び出していますので、デバイスの回転でどの順番でイベントが呼ばれているのか分かります。
 流れが分かると適切なタイミングで処理を書けるようになるのでは、、、  
+  
 
-
-使い方は自分の調べたいメソッドの中でAppDelegateのcycleArrayに__func__を入れるだけ。  
-※例　[app.cycleArray addObject:[NSString stringWithFormat:@"%s\n%@",__func__,@"メソッド内容"]];   
-　　
+使い方は自分の調べたいメソッドの中でAppDelegateのcycleArrayに__func__を入れるだけ。
+```obj-c
+[app.cycleArray addObject:[NSString stringWithFormat:@"%s\n%@",__func__,@"メソッド内容"]];   
+```
   
 作ってみて気づいた点は上からの通知を表示した際に呼ばれているイベント  
 （WillResignActive:やDidEnterBackground等が呼ばれます。)  
