@@ -42,6 +42,7 @@ ViewControllerは青、ModalViewControllerは緑、NavigationControllerは紫色
 　　
 
 間違え、表現が分かりにくい等ありましたらご指摘ください。  
+最後に参考にさせて頂いたブログは数知れず、ありがとうございます。
 
 
 #Movie -youtube-  
