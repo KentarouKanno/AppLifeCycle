@@ -133,6 +133,20 @@
     NSLog(@"Class & Method: %s", __func__);
 }
 
+// iOS6 UpSideDownに対応するために以下が必要
+
+- (BOOL)shouldAutorotate
+{
+  //  [app.cycleArray addObject:[NSString stringWithFormat:@"%s\n%@",__func__,@"回転を許可するかどうかを返す"]];
+    return YES;
+}
+
+- (NSUInteger)supportedInterfaceOrientations
+{
+  //  [app.cycleArray addObject:[NSString stringWithFormat:@"%s\n%@",__func__,@"デバイスが回転を許可する方向を返す"]];
+    return UIInterfaceOrientationMaskAll;
+}
+
 - (void)viewDidLayoutSubviews
 {
     [super viewDidLayoutSubviews];
