@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F529AD40-0A39-4E13-8FE9-360CD991D0D2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AppLifeCycle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A2F3B677-A774-4242-B9CF-E38CF0A5C592</key>
+		<string>https://github.com/KentarOuKannO/AppLifeCycle.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AppLifeCycle.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A2F3B677-A774-4242-B9CF-E38CF0A5C592</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KentarOuKannO/AppLifeCycle.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A2F3B677-A774-4242-B9CF-E38CF0A5C592</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A2F3B677-A774-4242-B9CF-E38CF0A5C592</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AppLifeCycle</string>
+		</dict>
+	</array>
+</dict>
+</plist>

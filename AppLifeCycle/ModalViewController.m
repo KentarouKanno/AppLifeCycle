@@ -68,7 +68,7 @@
                                     action: @selector(backButtonAction:)];
     self.navigationItem.leftBarButtonItem = barButton;
     
-    table = [[CycleTableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStyleGrouped];
+    table = [[CycleTableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStylePlain];
     [self.view addSubview:table];
     
     
@@ -129,7 +129,7 @@
     [super viewDidLayoutSubviews];
     
     [table reloadData];
-    table.frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height + 20);
+    table.frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height);
 }
 
 #pragma mark- 画面遷移処理 modal

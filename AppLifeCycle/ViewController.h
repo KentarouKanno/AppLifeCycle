@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
 #import <StoreKit/StoreKit.h>
+
 #import "AppDelegate.h"
 
-@interface ViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UIAlertViewDelegate,UIActionSheetDelegate,MFMailComposeViewControllerDelegate,SKStoreProductViewControllerDelegate>
+@interface ViewController : UIViewController <UIAlertViewDelegate,UIActionSheetDelegate,MFMailComposeViewControllerDelegate,SKStoreProductViewControllerDelegate>
 {
     AppDelegate *app;
 }

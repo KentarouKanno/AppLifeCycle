@@ -1,0 +1,553 @@
+TAppLifeCycle
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Info.plist /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Info.plist
+cProcessPCH /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch.pch AppLifeCycle/AppLifeCycle-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/main.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/AppDelegate.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ViewController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ModalViewController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/NavigationController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/CycleTableView.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/RootNavigationController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/AppLifeCycle normal i386
+cGenerateDSYMFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app.dSYM /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/AppLifeCycle
+cCopyStringsFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/en.lproj/InfoPlist.strings AppLifeCycle/en.lproj/InfoPlist.strings
+cCpResource AppLifeCycle/Default.png Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default.png
+cCpResource AppLifeCycle/Default@2x.png Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default@2x.png
+cCpResource AppLifeCycle/Default-568h@2x.png Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default-568h@2x.png
+cTouch /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053497CDC0000000000000198
+t1397325020
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531F216C00000000000003B4
+t1394549100
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531F2173000000000000019E
+t1394549107
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053497CA70000000000446820
+t1397324967
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531F2177000000000088D8C0
+t1394549111
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c00000000531F217800000000002E5520
+t1394549112
+s3036448
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c00000000531F217A000000000006E450
+t1394549114
+s451664
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531F217D0000000001F1DE10
+t1394549117
+s32628240
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m
+c0000000053C15396000000000000265F
+t1405178774
+s9823
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Info.plist
+c0000000053C15396000000000000062F
+t1405178774
+s1583
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch
+c0000000053C153960000000000000147
+t1405178774
+s327
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m
+c0000000053C153960000000000000AFF
+t1405178774
+s2815
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/Default-568h@2x.png
+c0000000053C1539600000000000048A2
+t1405178774
+s18594
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/Default.png
+c0000000053C15396000000000000198C
+t1405178774
+s6540
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/Default@2x.png
+c0000000053C153960000000000003EEB
+t1405178774
+s16107
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m
+c0000000053C15396000000000000165B
+t1405178774
+s5723
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m
+c0000000053C1548D0000000000001C9C
+t1405179021
+s7324
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m
+c0000000053C153960000000000001418
+t1405178774
+s5144
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m
+c0000000053C153960000000000003E58
+t1405178774
+s15960
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/en.lproj/InfoPlist.strings
+c0000000053C15396000000000000002D
+t1405178774
+s45
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m
+c0000000053C153960000000000000157
+t1405178774
+s343
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/AppDelegate.o
+t1405179022
+s102628
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/AppLifeCycle.LinkFileList
+c0000000053C1548D00000000000004DF
+t1405179021
+s1247
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/CycleTableView.o
+t1405179023
+s65056
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ModalViewController.o
+t1405179022
+s66824
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/NavigationController.o
+t1405179023
+s74664
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/RootNavigationController.o
+t1405179023
+s55716
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ViewController.o
+t1405179023
+s124756
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/main.o
+t1405179022
+s3224
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch.pch
+t1405179022
+s5379244
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app
+t1405179023
+s306
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app.dSYM
+t2
+s0
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/AppLifeCycle
+t1405179023
+s127256
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default-568h@2x.png
+t1405179023
+s18594
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default.png
+t1405179023
+s6540
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default@2x.png
+t1405179023
+s16107
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Info.plist
+t1405179021
+s1043
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/PkgInfo
+t1405179021
+s8
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/en.lproj/InfoPlist.strings
+t1405179023
+s42
+
+CBuild AST from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m
+r0
+
+CBuild AST from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m
+r0
+
+CBuild AST from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m
+r0
+
+CBuild AST from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m
+r0
+
+CBuild AST from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m
+r0
+
+CBuild AST from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m
+r0
+
+CBuild AST from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9f20b50d8c71b941^f643c40d8c71b941^---0#1#1#--18"Check dependencies36"5246241A-A764-4B7D-ACA6-A7E29D84DE0A-
+
+CCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/AppDelegate.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426871822.640351
+e426871822.887504
+r1
+xCompileC
+xBuild/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/AppDelegate.o
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m217"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/AppDelegate.o AppLifeCycle/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9414a40e8c71b941^062bea0e8c71b941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m0000000000000000^3915"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/AppDelegate.o AppLifeCycle/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources/i386 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator -include /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/AppDelegate.dia -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/AppDelegate.o36"98E505C1-BF1C-492A-949F-8A11170C105D-
+bD2C3396A-D038-425C-A8F4-E72887CB86CB
+
+CCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/CycleTableView.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426871822.888967
+e426871823.074163
+r1
+xCompileC
+xBuild/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/CycleTableView.o
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m223"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/CycleTableView.o AppLifeCycle/CycleTableView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler77bae30e8c71b941^b0cb140f8c71b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m0000000000000000^3933"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/CycleTableView.o AppLifeCycle/CycleTableView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources/i386 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator -include /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/CycleTableView.d --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/CycleTableView.dia -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/CycleTableView.o36"1A47668D-6B28-43AD-BF02-206507CF04A3-
+bD2C3396A-D038-425C-A8F4-E72887CB86CB
+
+CCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ModalViewController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426871822.641807
+e426871822.986228
+r1
+xCompileC
+xBuild/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ModalViewController.o
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m233"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ModalViewController.o AppLifeCycle/ModalViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8b6fa40e8c71b941^18d0030f8c71b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m0000000000000000^3963"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ModalViewController.o AppLifeCycle/ModalViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources/i386 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator -include /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ModalViewController.d --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ModalViewController.dia -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ModalViewController.o36"00FDE5A3-1CC7-42F5-9FDD-C4710493D35D-
+bD2C3396A-D038-425C-A8F4-E72887CB86CB
+
+CCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/NavigationController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426871822.874838
+e426871823.094014
+r1
+xCompileC
+xBuild/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/NavigationController.o
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m235"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/NavigationController.o AppLifeCycle/NavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere415e00e8c71b941^ca36180f8c71b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m0000000000000000^3969"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/NavigationController.o AppLifeCycle/NavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources/i386 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator -include /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/NavigationController.d --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/NavigationController.dia -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/NavigationController.o36"55CE7021-0A6D-44A9-BBD3-56444A6D84BA-
+bD2C3396A-D038-425C-A8F4-E72887CB86CB
+
+CCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/RootNavigationController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426871822.986541
+e426871823.102344
+r1
+xCompileC
+xBuild/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/RootNavigationController.o
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m243"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/RootNavigationController.o AppLifeCycle/RootNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerffb1fc0e8c71b941^1904220f8c71b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m0000000000000000^3993"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/RootNavigationController.o AppLifeCycle/RootNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources/i386 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator -include /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/RootNavigationController.d --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/RootNavigationController.dia -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/RootNavigationController.o36"411E2117-A235-420A-939B-93E24244D9A5-
+bD2C3396A-D038-425C-A8F4-E72887CB86CB
+
+CCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ViewController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426871822.640717
+e426871823.116569
+r1
+xCompileC
+xBuild/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ViewController.o
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.h
+o/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:363:47: warning: 'addTimeInterval:' is deprecated: first deprecated in iOS 4.0 [-Wdeprecated-declarations]
+o        localNotify.fireDate = [[NSDate date] addTimeInterval:10];
+o                                              ^
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:1:
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch:12:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:9:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccelerometer.h:8:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:14:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSCalendar.h:7:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDate.h:27:1: note: method 'addTimeInterval:' declared here
+o- (id)addTimeInterval:(NSTimeInterval)seconds NS_DEPRECATED(10_0, 10_6, 2_0, 4_0);
+o^
+o/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:25:17: warning: method 'tableView:numberOfRowsInSection:' in protocol not implemented [-Wprotocol]
+o@implementation ViewController
+o                ^
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:1:
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch:12:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:10:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h:13:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h:10:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h:11:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h:255:1: note: method 'tableView:numberOfRowsInSection:' declared here
+o- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
+o^
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:9:
+o/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h:14:12: note: required for direct or indirect protocol 'UITableViewDataSource'
+o@interface ViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UIAlertViewDelegate,UIActionSheetDelegate,MFMailComposeViewControllerDelegate,SKStoreProductViewControllerDelegate>
+o           ^
+o/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:25:17: warning: method 'tableView:cellForRowAtIndexPath:' in protocol not implemented [-Wprotocol]
+o@implementation ViewController
+o                ^
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:1:
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch:12:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:10:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h:13:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h:10:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h:11:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h:260:1: note: method 'tableView:cellForRowAtIndexPath:' declared here
+o- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
+o^
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:9:
+o/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h:14:12: note: required for direct or indirect protocol 'UITableViewDataSource'
+o@interface ViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UIAlertViewDelegate,UIActionSheetDelegate,MFMailComposeViewControllerDelegate,SKStoreProductViewControllerDelegate>
+o           ^
+o3 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m223"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ViewController.o AppLifeCycle/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerad35a40e8c71b941^f71e220f8c71b941^-6036"/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:363:47: warning: 'addTimeInterval:' is deprecated: first deprecated in iOS 4.0 [-Wdeprecated-declarations]        localNotify.fireDate = [[NSDate date] addTimeInterval:10];                                              ^In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:1:In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:9:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccelerometer.h:8:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:14:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSCalendar.h:7:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDate.h:27:1: note: method 'addTimeInterval:' declared here- (id)addTimeInterval:(NSTimeInterval)seconds NS_DEPRECATED(10_0, 10_6, 2_0, 4_0);^/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:25:17: warning: method 'tableView:numberOfRowsInSection:' in protocol not implemented [-Wprotocol]@implementation ViewController                ^In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:1:In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h:13:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h:11:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h:255:1: note: method 'tableView:numberOfRowsInSection:' declared here- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;^In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:9:/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h:14:12: note: required for direct or indirect protocol 'UITableViewDataSource'@interface ViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UIAlertViewDelegate,UIActionSheetDelegate,MFMailComposeViewControllerDelegate,SKStoreProductViewControllerDelegate>           ^/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:25:17: warning: method 'tableView:cellForRowAtIndexPath:' in protocol not implemented [-Wprotocol]@implementation ViewController                ^In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:1:In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h:13:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h:11:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h:260:1: note: method 'tableView:cellForRowAtIndexPath:' declared here- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;^In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:9:/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h:14:12: note: required for direct or indirect protocol 'UITableViewDataSource'@interface ViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UIAlertViewDelegate,UIActionSheetDelegate,MFMailComposeViewControllerDelegate,SKStoreProductViewControllerDelegate>           ^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@61"'addTimeInterval:' is deprecated: first deprecated in iOS 4.0-426871823#18446744073709551615#0#1(2@39"Method 'addTimeInterval:' declared here-426871823#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@186"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDate.h0000000000000000^26#0#26#0#595#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@96"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m0000000000000000^362#46#362#46#12698#0#12"Deprecations--2@69"Method 'tableView:numberOfRowsInSection:' in protocol not implemented-426871823#18446744073709551615#0#2(2@55"Method 'tableView:numberOfRowsInSection:' declared here-426871823#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@186"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h0000000000000000^254#0#254#0#18097#0#14"Semantic Issue--2@64"Required for direct or indirect protocol 'UITableViewDataSource'-426871823#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@96"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h0000000000000000^13#11#13#11#268#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@96"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m0000000000000000^24#16#24#16#457#0#14"Semantic Issue--2@69"Method 'tableView:cellForRowAtIndexPath:' in protocol not implemented-426871823#18446744073709551615#0#2(2@55"Method 'tableView:cellForRowAtIndexPath:' declared here-426871823#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@186"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h0000000000000000^259#0#259#0#18504#0#14"Semantic Issue--2@64"Required for direct or indirect protocol 'UITableViewDataSource'-426871823#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@96"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h0000000000000000^13#11#13#11#268#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@96"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m0000000000000000^24#16#24#16#457#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@96"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m0000000000000000^3933"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ViewController.o AppLifeCycle/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources/i386 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator -include /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ViewController.dia -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ViewController.o36"DCD673D0-47D4-43C6-A3E6-5EC8EDD7600E-
+bD2C3396A-D038-425C-A8F4-E72887CB86CB
+
+CCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/main.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426871822.639827
+e426871822.874550
+r1
+xCompileC
+xBuild/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/main.o
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m203"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/main.o AppLifeCycle/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler70eea30e8c71b941^1b9be10e8c71b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m0000000000000000^3873"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/main.o AppLifeCycle/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources/i386 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator -include /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/main.dia -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/main.o36"72D5201D-15BB-4F9E-8DF1-2336E64388D7-
+bD2C3396A-D038-425C-A8F4-E72887CB86CB
+
+CCopyStringsFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/en.lproj/InfoPlist.strings AppLifeCycle/en.lproj/InfoPlist.strings
+s426871823.368827
+e426871823.370375
+r1
+xCopyStringsFile
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/en.lproj/InfoPlist.strings
+xAppLifeCycle/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy AppLifeCycle/en.lproj/InfoPlist.strings136"CopyStringsFile Build/Products/Debug-iphonesimulator/AppLifeCycle.app/en.lproj/InfoPlist.strings AppLifeCycle/en.lproj/InfoPlist.strings8d805e0f8c71b941^0fd35e0f8c71b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/en.lproj/InfoPlist.strings0000000000000000^655"CopyStringsFile Build/Products/Debug-iphonesimulator/AppLifeCycle.app/en.lproj/InfoPlist.strings AppLifeCycle/en.lproj/InfoPlist.strings    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/en.lproj -- AppLifeCycle/en.lproj/InfoPlist.strings36"DAC891A8-81CC-485F-858E-44C66F3FC5C3-
+bD2C3396A-D038-425C-A8F4-E72887CB86CB
+
+CCpResource AppLifeCycle/Default-568h@2x.png Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default-568h@2x.png
+s426871823.370514
+e426871823.372268
+r1
+xCpResource
+xAppLifeCycle/Default-568h@2x.png
+xBuild/Products/Debug-iphonesimulator/AppLifeCycle.app/Default-568h@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default-568h@2x.png117"CpResource AppLifeCycle/Default-568h@2x.png Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default-568h@2x.pngc0ec5e0f8c71b941^58555f0f8c71b941^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default-568h@2x.png003418dcdcffdf42^699"CpResource AppLifeCycle/Default-568h@2x.png Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default-568h@2x.png    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/Default-568h@2x.png /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app36"3211535D-CDB9-4FE7-A8D7-C28C3AE89C35-
+bD2C3396A-D038-425C-A8F4-E72887CB86CB
+
+CCpResource AppLifeCycle/Default.png Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default.png
+s426871823.369087
+e426871823.372184
+r1
+xCpResource
+xAppLifeCycle/Default.png
+xBuild/Products/Debug-iphonesimulator/AppLifeCycle.app/Default.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default.png101"CpResource AppLifeCycle/Default.png Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default.png0c925e0f8c71b941^4b5c5f0f8c71b941^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default.png003418dcdcffdf42^675"CpResource AppLifeCycle/Default.png Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default.png    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/Default.png /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app36"B37218CB-D046-4329-87F2-36DE7454A6B3-
+bD2C3396A-D038-425C-A8F4-E72887CB86CB
+
+CCpResource AppLifeCycle/Default@2x.png Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default@2x.png
+s426871823.369440
+e426871823.372133
+r1
+xCpResource
+xAppLifeCycle/Default@2x.png
+xBuild/Products/Debug-iphonesimulator/AppLifeCycle.app/Default@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default@2x.png107"CpResource AppLifeCycle/Default@2x.png Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default@2x.png59a75e0f8c71b941^30475f0f8c71b941^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default@2x.png003418dcdcffdf42^684"CpResource AppLifeCycle/Default@2x.png Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Default@2x.png    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/Default@2x.png /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app36"FD73726A-D5E5-453A-9CAF-76183A75797D-
+bD2C3396A-D038-425C-A8F4-E72887CB86CB
+
+CGenerateDSYMFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app.dSYM /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/AppLifeCycle
+s426871823.326311
+e426871823.368237
+r1
+xGenerateDSYMFile
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app.dSYM
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/AppLifeCycle
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Generate /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app.dSYM142"GenerateDSYMFile Build/Products/Debug-iphonesimulator/AppLifeCycle.app.dSYM Build/Products/Debug-iphonesimulator/AppLifeCycle.app/AppLifeCyclef29a530f8c71b941^b3455e0f8c71b941^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app.dSYM003418dcdcffdf42^754"GenerateDSYMFile Build/Products/Debug-iphonesimulator/AppLifeCycle.app.dSYM Build/Products/Debug-iphonesimulator/AppLifeCycle.app/AppLifeCycle    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/AppLifeCycle -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app.dSYM36"6C87C7F3-DCAB-43CE-823D-C72E2D9C6967-
+bD2C3396A-D038-425C-A8F4-E72887CB86CB
+
+CLd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/AppLifeCycle normal i386
+s426871823.119621
+e426871823.325316
+r1
+xLd
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/AppLifeCycle
+xnormal
+xi386
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/AppLifeCycle.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/main.o
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/AppDelegate.o
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ViewController.o
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/ModalViewController.o
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/NavigationController.o
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/CycleTableView.o
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/RootNavigationController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Link /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/AppLifeCycle81"Ld Build/Products/Debug-iphonesimulator/AppLifeCycle.app/AppLifeCycle normal i386d8b81e0f8c71b941^a54f530f8c71b941^---0#0#1#--1606"Ld Build/Products/Debug-iphonesimulator/AppLifeCycle.app/AppLifeCycle normal i386    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export IPHONEOS_DEPLOYMENT_TARGET=6.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator -filelist /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/AppLifeCycle.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework StoreKit -framework MessageUI -framework UIKit -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/Objects-normal/i386/AppLifeCycle_dependency_info.dat -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/AppLifeCycle36"AF791EDC-C4DF-412D-842D-B2092B8F8330-
+bD2C3396A-D038-425C-A8F4-E72887CB86CB
+
+CProcessInfoPlistFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Info.plist /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Info.plist
+s426871821.768758
+e426871821.772169
+r1
+xProcessInfoPlistFile
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Info.plist
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Process /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Info.plist122"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Info.plist AppLifeCycle/AppLifeCycle-Info.pliste832c50d8c71b941^9818c70d8c71b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Info.plist0000000000000000^835"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Info.plist AppLifeCycle/AppLifeCycle-Info.plist    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Info.plist -genpkginfo /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app/Info.plist36"342DC907-0D3E-491E-A798-D582E5A24507-
+bD2C3396A-D038-425C-A8F4-E72887CB86CB
+
+CProcessPCH /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch.pch AppLifeCycle/AppLifeCycle-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426871821.775088
+e426871822.638977
+r1
+xProcessPCH
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch.pch
+xAppLifeCycle/AppLifeCycle-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile AppLifeCycle/AppLifeCycle-Prefix.pch231"ProcessPCH Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch.pch AppLifeCycle/AppLifeCycle-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb48ec60d8c71b941^ea94a30e8c71b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch0000000000000000^3767"ProcessPCH Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch.pch AppLifeCycle/AppLifeCycle-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources/i386 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphonesimulator/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch.dia -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch.d -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-erbolkxbapmfvifzoqxqnszolrqh/AppLifeCycle-Prefix.pch.pch36"5F5E2353-1D6F-44F2-9B48-F84CD3961BB6-
+bD2C3396A-D038-425C-A8F4-E72887CB86CB
+
+CProcessPCH /Users/KentarOu/Library/Developer/Xcode/DerivedData/AppLifeCycle-hixxguyiqsbhfpgrzrtzvulbsfiu/Index/PrecompiledHeaders/AppLifeCycle-Prefix-gptugmhbjkbsaxauofirkhcobvuj_ast/AppLifeCycle-Prefix.pch.pch AppLifeCycle/AppLifeCycle-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphonesimulator/AppLifeCycle.app
+r0
+

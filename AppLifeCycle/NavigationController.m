@@ -69,7 +69,7 @@
                                     action: @selector(backButtonAction:)];
     self.navigationItem.leftBarButtonItem = barButton;
     
-    table = [[CycleTableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height - 44) style:UITableViewStyleGrouped];
+    table = [[CycleTableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height - 44) style:UITableViewStylePlain];
     [self.view addSubview:table];
     
     [table setContentOffset:app.TablePosition];
@@ -159,7 +159,7 @@
    // NSLog(@"Class & Method: %s", __func__);
     
     [table reloadData];
-    table.frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height + 20);
+    table.frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height);
 }
 
 
@@ -177,6 +177,18 @@
             [self.delegate tableReload];
         }
     }
+}
+
+- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
+	[viewController viewWillAppear:animated];
+    
+    [app.cycleArray addObject:[NSString stringWithFormat:@"%s\n%@",__func__,@"NavigationController_willShowViewController"]];
+}
+
+- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
+	[viewController viewDidAppear:animated];
+    
+    [app.cycleArray addObject:[NSString stringWithFormat:@"%s\n%@",__func__,@"NavigationController_didShowViewController"]];
 }
 
 

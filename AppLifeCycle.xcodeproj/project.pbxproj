@@ -200,6 +200,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "@_KentarOu";
+				TargetAttributes = {
+					371D6C9517C06605007FBAFF = {
+						DevelopmentTeam = HY9CXX38QG;
+					};
+				};
 			};
 			buildConfigurationList = 371D6C9117C06605007FBAFF /* Build configuration list for PBXProject "AppLifeCycle" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -320,10 +325,13 @@
 		371D6CB417C06605007FBAFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppLifeCycle/AppLifeCycle-Prefix.pch";
 				INFOPLIST_FILE = "AppLifeCycle/AppLifeCycle-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -331,10 +339,13 @@
 		371D6CB517C06605007FBAFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppLifeCycle/AppLifeCycle-Prefix.pch";
 				INFOPLIST_FILE = "AppLifeCycle/AppLifeCycle-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

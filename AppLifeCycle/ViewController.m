@@ -57,7 +57,6 @@
 
 - (void)loadView
 {
-    
     [super loadView];
     [app.cycleArray addObject:[NSString stringWithFormat:@"%s\n%@",__func__,@"xibを使わない時の画面初期化"]];
   //  NSLog(@"Class & Method: %s", __func__);
@@ -74,10 +73,13 @@
     [app.cycleArray addObject:[NSString stringWithFormat:@"%s\n%@",__func__,@"ビューの読み込みが終わったら呼ばれる"]];
   //  NSLog(@"Class & Method: %s", __func__);
     
-    table = [[CycleTableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStyleGrouped];
+    table = [[CycleTableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStylePlain];
+    
+    
     [self.view addSubview:table];
     [table setContentOffset:app.TablePosition];
     app.table = table;
+    app.TablePosition = CGPointZero;
 
     
     [[NSNotificationCenter defaultCenter] addObserver:self
@@ -213,7 +215,7 @@
 - (void)MakeFooterBar
 {
     footerBar = [[UIToolbar alloc]initWithFrame:CGRectMake(0, self.view.bounds.size.height - 88, self.view.frame.size.width, 44)];
-    footerBar.barStyle = UIBarStyleBlack;
+    footerBar.barStyle = UIBarStyleDefault;
     [self.view addSubview:footerBar];
     
     NSArray * btnArray = nil;
@@ -237,10 +239,12 @@
 	{
 		barHeight = 32;
 	}
-	footerBar.frame = CGRectMake( 0, self.view.bounds.size.height - barHeight, self.view.bounds.size.width, barHeight );
-    table.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - barHeight + 20);
-    [self.view bringSubviewToFront:footerBar];
     
+    
+	footerBar.frame = CGRectMake( 0, self.view.bounds.size.height - barHeight, self.view.bounds.size.width, barHeight );
+    table.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - barHeight);
+    
+    [self.view bringSubviewToFront:footerBar];
     [table reloadData];
 }
 
@@ -360,7 +364,7 @@
     UILocalNotification *localNotify = [[UILocalNotification alloc] init];
     if (localNotify)
     {
-        localNotify.fireDate = [[NSDate date] addTimeInterval:10];
+        localNotify.fireDate = [NSDate dateWithTimeIntervalSinceNow:10];
         localNotify.timeZone = [NSTimeZone defaultTimeZone];
         localNotify.alertBody = [NSString stringWithFormat:@"通知を受信しました。"];
         localNotify.alertAction = @"AppLifeCycle Open";

@@ -1,0 +1,601 @@
+TAppLifeCycle
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Info.plist /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/AppLifeCycle.app/ResourceRules.plist
+cProcessPCH /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch.pch AppLifeCycle/AppLifeCycle-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/main.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/AppDelegate.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ViewController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ModalViewController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/NavigationController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/CycleTableView.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/RootNavigationController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/AppLifeCycle normal arm64
+cGenerateDSYMFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app.dSYM /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/AppLifeCycle
+cCopyStringsFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/en.lproj/InfoPlist.strings AppLifeCycle/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Default.png AppLifeCycle/Default.png
+cCopyPNGFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Default@2x.png AppLifeCycle/Default@2x.png
+cCopyPNGFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Default-568h@2x.png AppLifeCycle/Default-568h@2x.png
+cProcessProductPackaging /Users/KentarOu/Library/MobileDevice/Provisioning\ Profiles/D5CB41A7-EA4B-47A9-BA87-D2B7BF1851B0.mobileprovision /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/embedded.mobileprovision
+cTouch /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle.xcent
+cCodeSign /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053497CC60000000000000132
+t1397324998
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c00000000531F21560000000000000094
+t1394549078
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c00000000531F21560000000000000096
+t1394549078
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000531F2156000000000000036B
+t1394549078
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531F2157000000000000019E
+t1394549079
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053497CA600000000004D7BC0
+t1397324966
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531F215A0000000000A90C10
+t1394549082
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c00000000531F215B00000000003D1D20
+t1394549083
+s4005152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c00000000531F215C0000000000099D80
+t1394549084
+s630144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531F215F0000000002759920
+t1394549087
+s41261344
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m
+c0000000053C15396000000000000265F
+t1405178774
+s9823
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Info.plist
+c0000000053C15396000000000000062F
+t1405178774
+s1583
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch
+c0000000053C153960000000000000147
+t1405178774
+s327
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m
+c0000000053C153960000000000000AFF
+t1405178774
+s2815
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/Default-568h@2x.png
+c0000000053C1539600000000000048A2
+t1405178774
+s18594
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/Default.png
+c0000000053C15396000000000000198C
+t1405178774
+s6540
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/Default@2x.png
+c0000000053C153960000000000003EEB
+t1405178774
+s16107
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m
+c0000000053C15396000000000000165B
+t1405178774
+s5723
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m
+c0000000053C1548D0000000000001C9C
+t1405179021
+s7324
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m
+c0000000053C153960000000000001418
+t1405178774
+s5144
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m
+c0000000053C153960000000000003E58
+t1405178774
+s15960
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/en.lproj/InfoPlist.strings
+c0000000053C15396000000000000002D
+t1405178774
+s45
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m
+c0000000053C153960000000000000157
+t1405178774
+s343
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle.xcent
+t1406383919
+s493
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/AppDelegate.o
+t1406383919
+s112504
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/AppLifeCycle.LinkFileList
+c0000000053D3B72E00000000000004B5
+t1406383918
+s1205
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/CycleTableView.o
+t1406383919
+s74412
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ModalViewController.o
+t1406383919
+s70944
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/NavigationController.o
+t1406383919
+s79124
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/RootNavigationController.o
+t1406383919
+s58316
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ViewController.o
+t1406383919
+s145236
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/main.o
+t1406383918
+s3848
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch.pch
+t1406383918
+s5338276
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app
+t1406383919
+s374
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app.dSYM
+t2
+s0
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/AppLifeCycle
+t1406383919
+s171296
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Default-568h@2x.png
+t1406383919
+s7014
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Default.png
+t1406383919
+s3688
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Default@2x.png
+t1406383919
+s6316
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Info.plist
+t1406383918
+s1323
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/PkgInfo
+t1406383918
+s8
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/ResourceRules.plist
+t1406383918
+s150
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/embedded.mobileprovision
+t1406383919
+s8182
+
+N/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/en.lproj/InfoPlist.strings
+t1406383919
+s42
+
+N/Users/KentarOu/Library/MobileDevice/Provisioning Profiles/D5CB41A7-EA4B-47A9-BA87-D2B7BF1851B0.mobileprovision
+c0000000053B9D7F80000000000001FF6
+t1404688376
+s8182
+
+CBuild AST from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m
+r0
+
+CBuild AST from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m
+r0
+
+CBuild AST from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m
+r0
+
+CBuild AST from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m
+r0
+
+CBuild AST from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m
+r0
+
+CBuild AST from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m
+r0
+
+CBuild AST from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9a775caeee83b941^43e167aeee83b941^---0#1#1#--18"Check dependencies36"24538B05-79A3-4EDA-9CA0-A1A803468843-
+
+CCodeSign /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app
+s428076719.453987
+e428076719.665479
+r1
+xCodeSign
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"CodeSign Build/Products/Debug-iphoneos/AppLifeCycle.app55"CodeSign Build/Products/Debug-iphoneos/AppLifeCycle.appec6c74afee83b941^5b5daaafee83b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/0000000000000000^1120"CodeSign Build/Products/Debug-iphoneos/AppLifeCycle.app    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: kanno kentarou (QYGNX6A4B8)" and provisioning profile "iOS Team Provisioning Profile: *" (D5CB41A7-EA4B-47A9-BA87-D2B7BF1851B0)    /usr/bin/codesign --force --sign 9391773AC85854464CC0ACA2F0910431CE25C6D4 --resource-rules=/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/ResourceRules.plist --entitlements /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle.xcent /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app36"BF0D0CC0-7A2E-4099-B4AF-81260083CF27-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/AppDelegate.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428076718.810297
+e428076719.027324
+r1
+xCompileC
+xBuild/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/AppDelegate.o
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m212"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/AppDelegate.o AppLifeCycle/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler4e99cfaeee83b941^f54c07afee83b941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m0000000000000000^3739"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/AppDelegate.o AppLifeCycle/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources/arm64 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos -include /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/AppDelegate.d --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/AppDelegate.dia -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.m -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/AppDelegate.o36"6856DF77-3429-41CC-9D9F-CF4E5BBC128F-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/CycleTableView.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428076719.023908
+e428076719.118505
+r1
+xCompileC
+xBuild/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/CycleTableView.o
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m218"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/CycleTableView.o AppLifeCycle/CycleTableView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7e5106afee83b941^b4581eafee83b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m0000000000000000^3757"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/CycleTableView.o AppLifeCycle/CycleTableView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources/arm64 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos -include /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/CycleTableView.d --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/CycleTableView.dia -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.m -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/CycleTableView.o36"44F13A14-81D7-496B-9031-B4B4E72889B9-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ModalViewController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428076718.811780
+e428076719.022810
+r1
+xCompileC
+xBuild/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ModalViewController.o
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m228"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ModalViewController.o AppLifeCycle/ModalViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler3deecfaeee83b941^b2d905afee83b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m0000000000000000^3787"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ModalViewController.o AppLifeCycle/ModalViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources/arm64 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos -include /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ModalViewController.d --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ModalViewController.dia -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.m -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ModalViewController.o36"0962BA15-EF46-4147-B3A7-0EE7660DC5E2-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/NavigationController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428076718.984155
+e428076719.108188
+r1
+xCompileC
+xBuild/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/NavigationController.o
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m230"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/NavigationController.o AppLifeCycle/NavigationController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler880ffcaeee83b941^ffb21bafee83b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m0000000000000000^3793"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/NavigationController.o AppLifeCycle/NavigationController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources/arm64 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos -include /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/NavigationController.d --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/NavigationController.dia -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.m -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/NavigationController.o36"1D148F7B-C6F1-4C46-A394-1A98027FD2F6-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/RootNavigationController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428076719.027669
+e428076719.111454
+r1
+xCompileC
+xBuild/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/RootNavigationController.o
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m238"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/RootNavigationController.o AppLifeCycle/RootNavigationController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler093507afee83b941^94881cafee83b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m0000000000000000^3817"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/RootNavigationController.o AppLifeCycle/RootNavigationController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources/arm64 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos -include /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/RootNavigationController.d --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/RootNavigationController.dia -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/RootNavigationController.m -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/RootNavigationController.o36"71366A11-F51C-4BCB-8392-DFF989DBA1D7-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ViewController.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428076718.810572
+e428076719.079419
+r1
+xCompileC
+xBuild/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ViewController.o
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ModalViewController.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/NavigationController.h
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/CycleTableView.h
+o/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:363:47: warning: 'addTimeInterval:' is deprecated: first deprecated in iOS 4.0 [-Wdeprecated-declarations]
+o        localNotify.fireDate = [[NSDate date] addTimeInterval:10];
+o                                              ^
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:1:
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch:12:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:9:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccelerometer.h:8:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:14:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSCalendar.h:7:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDate.h:27:1: note: method 'addTimeInterval:' declared here
+o- (id)addTimeInterval:(NSTimeInterval)seconds NS_DEPRECATED(10_0, 10_6, 2_0, 4_0);
+o^
+o/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:25:17: warning: method 'tableView:numberOfRowsInSection:' in protocol not implemented [-Wprotocol]
+o@implementation ViewController
+o                ^
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:1:
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch:12:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:10:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h:13:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h:10:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h:11:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h:255:1: note: method 'tableView:numberOfRowsInSection:' declared here
+o- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
+o^
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:9:
+o/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h:14:12: note: required for direct or indirect protocol 'UITableViewDataSource'
+o@interface ViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UIAlertViewDelegate,UIActionSheetDelegate,MFMailComposeViewControllerDelegate,SKStoreProductViewControllerDelegate>
+o           ^
+o/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:25:17: warning: method 'tableView:cellForRowAtIndexPath:' in protocol not implemented [-Wprotocol]
+o@implementation ViewController
+o                ^
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:1:
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch:12:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:10:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h:13:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h:10:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h:11:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h:260:1: note: method 'tableView:cellForRowAtIndexPath:' declared here
+o- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
+o^
+oIn file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:9:
+o/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h:14:12: note: required for direct or indirect protocol 'UITableViewDataSource'
+o@interface ViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UIAlertViewDelegate,UIActionSheetDelegate,MFMailComposeViewControllerDelegate,SKStoreProductViewControllerDelegate>
+o           ^
+o3 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m218"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ViewController.o AppLifeCycle/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler2fc3cfaeee83b941^695414afee83b941^-5826"/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:363:47: warning: 'addTimeInterval:' is deprecated: first deprecated in iOS 4.0 [-Wdeprecated-declarations]        localNotify.fireDate = [[NSDate date] addTimeInterval:10];                                              ^In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:1:In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:9:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccelerometer.h:8:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:14:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSCalendar.h:7:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDate.h:27:1: note: method 'addTimeInterval:' declared here- (id)addTimeInterval:(NSTimeInterval)seconds NS_DEPRECATED(10_0, 10_6, 2_0, 4_0);^/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:25:17: warning: method 'tableView:numberOfRowsInSection:' in protocol not implemented [-Wprotocol]@implementation ViewController                ^In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:1:In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h:13:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h:11:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h:255:1: note: method 'tableView:numberOfRowsInSection:' declared here- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;^In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:9:/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h:14:12: note: required for direct or indirect protocol 'UITableViewDataSource'@interface ViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UIAlertViewDelegate,UIActionSheetDelegate,MFMailComposeViewControllerDelegate,SKStoreProductViewControllerDelegate>           ^/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:25:17: warning: method 'tableView:cellForRowAtIndexPath:' in protocol not implemented [-Wprotocol]@implementation ViewController                ^In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:1:In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h:13:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h:11:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h:260:1: note: method 'tableView:cellForRowAtIndexPath:' declared here- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;^In file included from /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m:9:/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h:14:12: note: required for direct or indirect protocol 'UITableViewDataSource'@interface ViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UIAlertViewDelegate,UIActionSheetDelegate,MFMailComposeViewControllerDelegate,SKStoreProductViewControllerDelegate>           ^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@61"'addTimeInterval:' is deprecated: first deprecated in iOS 4.0-428076719#18446744073709551615#0#1(2@39"Method 'addTimeInterval:' declared here-428076719#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@172"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDate.h0000000000000000^26#0#26#0#595#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@96"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m0000000000000000^362#46#362#46#12698#0#12"Deprecations--2@69"Method 'tableView:numberOfRowsInSection:' in protocol not implemented-428076719#18446744073709551615#0#2(2@55"Method 'tableView:numberOfRowsInSection:' declared here-428076719#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@172"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h0000000000000000^254#0#254#0#18097#0#14"Semantic Issue--2@64"Required for direct or indirect protocol 'UITableViewDataSource'-428076719#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@96"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h0000000000000000^13#11#13#11#268#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@96"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m0000000000000000^24#16#24#16#457#0#14"Semantic Issue--2@69"Method 'tableView:cellForRowAtIndexPath:' in protocol not implemented-428076719#18446744073709551615#0#2(2@55"Method 'tableView:cellForRowAtIndexPath:' declared here-428076719#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@172"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h0000000000000000^259#0#259#0#18504#0#14"Semantic Issue--2@64"Required for direct or indirect protocol 'UITableViewDataSource'-428076719#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@96"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.h0000000000000000^13#11#13#11#268#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@96"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m0000000000000000^24#16#24#16#457#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@96"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m0000000000000000^3757"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ViewController.o AppLifeCycle/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources/arm64 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos -include /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ViewController.d --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ViewController.dia -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/ViewController.m -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ViewController.o36"A58A6AED-8AD2-4726-926F-89483348A539-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CCompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/main.o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428076718.810019
+e428076718.983912
+r1
+xCompileC
+xBuild/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/main.o
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m198"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/main.o AppLifeCycle/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilercd74cfaeee83b941^37c1fbaeee83b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m0000000000000000^3697"CompileC Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/main.o AppLifeCycle/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources/arm64 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos -include /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/main.dia -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/main.m -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/main.o36"D59A6A68-72E0-4524-A30E-0568F7E31ECD-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CCopyPNGFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Default-568h@2x.png AppLifeCycle/Default-568h@2x.png
+s428076719.335512
+e428076719.444662
+r1
+xCopyPNGFile
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Default-568h@2x.png
+xAppLifeCycle/Default-568h@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"CopyPNGFile Build/Products/Debug-iphoneos/AppLifeCycle.app/Default-568h@2x.png AppLifeCycle/Default-568h@2x.png111"CopyPNGFile Build/Products/Debug-iphoneos/AppLifeCycle.app/Default-568h@2x.png AppLifeCycle/Default-568h@2x.png76fe55afee83b941^85cc71afee83b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/Default-568h@2x.png0000000000000000^698"CopyPNGFile Build/Products/Debug-iphoneos/AppLifeCycle.app/Default-568h@2x.png AppLifeCycle/Default-568h@2x.png    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/Default-568h@2x.png /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Default-568h@2x.png36"B600F8F1-5C1A-4582-85CD-0C9D7682FB7E-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CCopyPNGFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Default.png AppLifeCycle/Default.png
+s428076719.334453
+e428076719.387132
+r1
+xCopyPNGFile
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Default.png
+xAppLifeCycle/Default.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"CopyPNGFile Build/Products/Debug-iphoneos/AppLifeCycle.app/Default.png AppLifeCycle/Default.png95"CopyPNGFile Build/Products/Debug-iphoneos/AppLifeCycle.app/Default.png AppLifeCycle/Default.png85b155afee83b941^001c63afee83b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/Default.png0000000000000000^666"CopyPNGFile Build/Products/Debug-iphoneos/AppLifeCycle.app/Default.png AppLifeCycle/Default.png    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/Default.png /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Default.png36"DBCA62FA-ACC9-459F-A690-6E08AE0968BC-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CCopyPNGFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Default@2x.png AppLifeCycle/Default@2x.png
+s428076719.334815
+e428076719.438934
+r1
+xCopyPNGFile
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Default@2x.png
+xAppLifeCycle/Default@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"CopyPNGFile Build/Products/Debug-iphoneos/AppLifeCycle.app/Default@2x.png AppLifeCycle/Default@2x.png101"CopyPNGFile Build/Products/Debug-iphoneos/AppLifeCycle.app/Default@2x.png AppLifeCycle/Default@2x.png8acb55afee83b941^f75670afee83b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/Default@2x.png0000000000000000^678"CopyPNGFile Build/Products/Debug-iphoneos/AppLifeCycle.app/Default@2x.png AppLifeCycle/Default@2x.png    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/Default@2x.png /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Default@2x.png36"C7D384DB-BEEC-4401-B064-CFBAFA4EBB9B-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CCopyStringsFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/en.lproj/InfoPlist.strings AppLifeCycle/en.lproj/InfoPlist.strings
+s428076719.334219
+e428076719.336814
+r1
+xCopyStringsFile
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/en.lproj/InfoPlist.strings
+xAppLifeCycle/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy AppLifeCycle/en.lproj/InfoPlist.strings129"CopyStringsFile Build/Products/Debug-iphoneos/AppLifeCycle.app/en.lproj/InfoPlist.strings AppLifeCycle/en.lproj/InfoPlist.stringsfca555afee83b941^e73956afee83b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/en.lproj/InfoPlist.strings0000000000000000^634"CopyStringsFile Build/Products/Debug-iphoneos/AppLifeCycle.app/en.lproj/InfoPlist.strings AppLifeCycle/en.lproj/InfoPlist.strings    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/en.lproj -- AppLifeCycle/en.lproj/InfoPlist.strings36"D5CF81BC-7C77-48D7-865C-3FD643C15622-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/AppLifeCycle.app/ResourceRules.plist
+s428076718.409629
+e428076718.412953
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xBuild/Products/Debug-iphoneos/AppLifeCycle.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/Products/Debug-iphoneos/AppLifeCycle.app/ResourceRules.plist199"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/AppLifeCycle.app/ResourceRules.plist45f368aeee83b941^35b869aeee83b941^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/ResourceRules.plist00343cb2dfffdf42^796"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/AppLifeCycle.app/ResourceRules.plist    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app36"EA78919D-2684-421D-9812-6C119C422AC0-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CGenerateDSYMFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app.dSYM /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/AppLifeCycle
+s428076719.299764
+e428076719.333712
+r1
+xGenerateDSYMFile
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app.dSYM
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/AppLifeCycle
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Generate /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app.dSYM128"GenerateDSYMFile Build/Products/Debug-iphoneos/AppLifeCycle.app.dSYM Build/Products/Debug-iphoneos/AppLifeCycle.app/AppLifeCyclef7ca4cafee83b941^026755afee83b941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app.dSYM00343cb2dfffdf42^719"GenerateDSYMFile Build/Products/Debug-iphoneos/AppLifeCycle.app.dSYM Build/Products/Debug-iphoneos/AppLifeCycle.app/AppLifeCycle    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/AppLifeCycle -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app.dSYM36"C56D09B3-77AA-4F06-980D-B81909579A0A-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CLd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/AppLifeCycle normal arm64
+s428076719.119456
+e428076719.298773
+r1
+xLd
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/AppLifeCycle
+xnormal
+xarm64
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/AppLifeCycle.LinkFileList
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/main.o
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/AppDelegate.o
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ViewController.o
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/ModalViewController.o
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/NavigationController.o
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/CycleTableView.o
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/RootNavigationController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Link /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/AppLifeCycle75"Ld Build/Products/Debug-iphoneos/AppLifeCycle.app/AppLifeCycle normal arm6444a41eafee83b941^fa7c4cafee83b941^---0#0#1#--1487"Ld Build/Products/Debug-iphoneos/AppLifeCycle.app/AppLifeCycle normal arm64    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export IPHONEOS_DEPLOYMENT_TARGET=6.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos -filelist /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/AppLifeCycle.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework StoreKit -framework MessageUI -framework UIKit -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/Objects-normal/arm64/AppLifeCycle_dependency_info.dat -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/AppLifeCycle36"7AF041FC-0A57-49D0-BF4D-78ACF6AE3492-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CProcessInfoPlistFile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Info.plist /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Info.plist
+s428076718.406387
+e428076718.409115
+r1
+xProcessInfoPlistFile
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Info.plist
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Process /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Info.plist115"ProcessInfoPlistFile Build/Products/Debug-iphoneos/AppLifeCycle.app/Info.plist AppLifeCycle/AppLifeCycle-Info.pliste71868aeee83b941^b2bb68aeee83b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Info.plist0000000000000000^946"ProcessInfoPlistFile Build/Products/Debug-iphoneos/AppLifeCycle.app/Info.plist AppLifeCycle/AppLifeCycle-Info.plist    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Info.plist -genpkginfo /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/ResourceRules.plist -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/Info.plist36"141704E0-C478-4C09-AA56-A5D87C87E23E-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CProcessPCH /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch.pch AppLifeCycle/AppLifeCycle-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428076718.413885
+e428076718.809255
+r1
+xProcessPCH
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch.pch
+xAppLifeCycle/AppLifeCycle-Prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile AppLifeCycle/AppLifeCycle-Prefix.pch232"ProcessPCH Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch.pch AppLifeCycle/AppLifeCycle-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilercc096aaeee83b941^452bcfaeee83b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch0000000000000000^3615"ProcessPCH Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch.pch AppLifeCycle/AppLifeCycle-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-generated-files.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-own-target-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-all-target-headers.hmap -iquote /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle-project-headers.hmap -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources/arm64 -I/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/DerivedSources -F/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch.dia -MMD -MT dependencies -MF /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch.d -c /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/AppLifeCycle/AppLifeCycle-Prefix.pch -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/PrecompiledHeaders/AppLifeCycle-Prefix-dtuluzmxmqlaasatovfkzwxvlsmo/AppLifeCycle-Prefix.pch.pch36"F4E67F26-6968-4363-B1A0-9585AD3619C8-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CProcessPCH /Users/KentarOu/Library/Developer/Xcode/DerivedData/AppLifeCycle-hixxguyiqsbhfpgrzrtzvulbsfiu/Index/PrecompiledHeaders/AppLifeCycle-Prefix-gmtrryrckultaqdecrexcadgavdt_ast/AppLifeCycle-Prefix.pch.pch AppLifeCycle/AppLifeCycle-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle.xcent
+s428076719.450031
+e428076719.453540
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection236"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle.xcent236"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle.xcent704473afee83b941^691a74afee83b941^---0#0#1#-19%DVTDocumentLocation2@158"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle.xcent00343cb2dfffdf42^830"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle.xcent    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Intermediates/AppLifeCycle.build/Debug-iphoneos/AppLifeCycle.build/AppLifeCycle.xcent36"A34C1EF2-1277-4E28-91FD-0284744DBFCC-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CProcessProductPackaging /Users/KentarOu/Library/MobileDevice/Provisioning\ Profiles/D5CB41A7-EA4B-47A9-BA87-D2B7BF1851B0.mobileprovision /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/embedded.mobileprovision
+s428076719.445152
+e428076719.448569
+r1
+xProcessProductPackaging
+x/Users/KentarOu/Library/MobileDevice/Provisioning Profiles/D5CB41A7-EA4B-47A9-BA87-D2B7BF1851B0.mobileprovision
+x/Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection208"ProcessProductPackaging /Users/KentarOu/Library/MobileDevice/Provisioning\ Profiles/D5CB41A7-EA4B-47A9-BA87-D2B7BF1851B0.mobileprovision Build/Products/Debug-iphoneos/AppLifeCycle.app/embedded.mobileprovision208"ProcessProductPackaging /Users/KentarOu/Library/MobileDevice/Provisioning\ Profiles/D5CB41A7-EA4B-47A9-BA87-D2B7BF1851B0.mobileprovision Build/Products/Debug-iphoneos/AppLifeCycle.app/embedded.mobileprovision0c0772afee83b941^56d672afee83b941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/embedded.mobileprovision00343cb2dfffdf42^748"ProcessProductPackaging /Users/KentarOu/Library/MobileDevice/Provisioning\ Profiles/D5CB41A7-EA4B-47A9-BA87-D2B7BF1851B0.mobileprovision Build/Products/Debug-iphoneos/AppLifeCycle.app/embedded.mobileprovision    cd /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/KentarOu/Library/MobileDevice/Provisioning\ Profiles/D5CB41A7-EA4B-47A9-BA87-D2B7BF1851B0.mobileprovision -o /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app/embedded.mobileprovision36"39F249D5-B046-4336-AC4A-383FD64CCF2C-
+bA2133671-06F9-4ED0-962B-4C710C27BFED
+
+CTouch /Users/KentarOu/Desktop/My_Github/ApplifeCycle/AppLifeCycle/Build/Products/Debug-iphoneos/AppLifeCycle.app
+r0
+
